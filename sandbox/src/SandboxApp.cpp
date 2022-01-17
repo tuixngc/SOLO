@@ -15,9 +15,7 @@ public:
 
 };
 
-int main()
+SOLO::Application* SOLO::CreateApplication()
 {
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-	delete sandbox;
+	return new Sandbox();
 }

@@ -13,6 +13,7 @@ namespace SOLO {
 		void Run();
 	};
 
+	Application* CreateApplication();
 }
 
 
