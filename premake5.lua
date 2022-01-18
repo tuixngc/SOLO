@@ -26,7 +26,8 @@ project "SOLO"
 
 	includedirs
 	{
-		"SOLO/vendor/spdlog/include"
+		"SOLO/vendor/spdlog/include",
+		"SOLO/src"
 	}
 
 	filter "system:windows"
